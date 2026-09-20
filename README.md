@@ -6,8 +6,8 @@ There was help from ChatGPT 6 Astra. Help can also be found in the application i
 
 ## Install the ready-built app
 
-1. Your 3DS must already have homebrew access. This ZIP does not modify the console.
-2. Turn off the 3DS. Copy the **RokuRemote3DS** folder from the **Roku-Remote-3DS** ZIP to the root of your SD card 3ds folder.
+1. Your 3DS must already have homebrew access. This does not modify the console.
+2. Turn off the 3DS. Copy the **RokuRemote3DS** folder to the root of your SD card 3ds folder.
 3. Put the SD card back, turn on the 3DS, and open **Homebrew Launcher**.
 4. Open **Roku Remote 3DS**.
 
