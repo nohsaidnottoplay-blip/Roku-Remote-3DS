@@ -2,7 +2,7 @@ ROKU REMOTE 3DS - START HERE
 
 1. Your 3DS needs Homebrew Launcher already installed.
 2. Turn off the 3DS. Copy the included 3ds folder to the SD card.
-3. Open Homebrew Launcher, then Roku Remote 3DS.
+3. Open Homebrew Launcher, then Roku Remote 3DS, Or launch from Home-screen.
 4. On your Roku, enable Settings > System > Advanced system settings >
    Control by mobile apps, when that option is available.
 5. Find the Roku IP at Settings > Network > About.
