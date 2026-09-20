@@ -2,7 +2,7 @@
 
 A personal Nintendo 3DS homebrew remote for a Roku device on your home network.
 The video stays on your TV. The 3DS acts as the remote.
-There was help from ChatGPT 6 Astra.
+There was help from ChatGPT 6 Astra. Help can also be found in the application itself.
 
 ## Install the ready-built app
 
