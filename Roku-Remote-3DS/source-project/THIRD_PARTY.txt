@@ -1,0 +1,14 @@
+THIRD-PARTY COMPONENTS
+
+This app was built using devkitPro devkitARM and statically links libctru,
+newlib, and GCC runtime support. Their terms are separate from the MIT
+license for this project's original source. Available notices are included
+in the third-party-licenses directory.
+
+libctru: https://github.com/devkitPro/libctru
+newlib: https://github.com/devkitPro/newlib
+GCC runtime library exception: https://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html
+Build tools: https://devkitpro.org
+
+The toolchain itself is not redistributed. The icon and UI drawing code in
+this project are original; no official Roku or Nintendo artwork is included.
