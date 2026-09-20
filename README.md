@@ -23,9 +23,7 @@ SD card/
       RokuRemote3DS.smdh
 ```
 
-The app launches from Homebrew Launcher; it is not a HOME Menu CIA.
-It uses standard libctru APIs and does not require a New 3DS specifically.
-Physical testing on a 3DS and Roku is still needed.
+Physical testing on a 3DS and Roku is completed and the connection is successful.
 
 ## Connect your Roku
 
