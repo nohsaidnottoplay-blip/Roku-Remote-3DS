@@ -6,10 +6,11 @@ The video stays on your TV. The 3DS acts as the remote.
 ## Install the ready-built app
 
 1. Your 3DS must already have homebrew access. This ZIP does not modify the console.
-2. Turn off the 3DS. Copy the **3ds** folder from this ZIP to the root of its SD card.
-   Merge it with the existing folder if asked. Do not delete your existing apps.
+2. Turn off the 3DS. Copy the **RokuRemote3DS** folder from this ZIP to the root of your SD card 3ds folder.
 3. Put the SD card back, turn on the 3DS, and open **Homebrew Launcher**.
 4. Open **Roku Remote 3DS**.
+
+You could also downlaod the .cia file to your 3DS home screen.
 
 The installed files should be:
 
