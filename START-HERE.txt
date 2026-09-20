@@ -16,6 +16,4 @@ prove button commands are enabled.
 D-pad = Move | A = OK | B = Back | X = Home | Y = Play/Pause
 L/R = Volume when supported | SELECT = Setup | START = Exit
 
-This is a .3dsx app for Homebrew Launcher, not a HOME Menu CIA.
-Build and simulated Roku tests passed. Physical hardware is untested.
 See README.md for troubleshooting, source references, and rebuilding.
