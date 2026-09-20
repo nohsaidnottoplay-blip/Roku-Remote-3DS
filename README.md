@@ -11,7 +11,7 @@ There was help from ChatGPT 6 Astra. Help can also be found in the application i
 3. Put the SD card back, turn on the 3DS, and open **Homebrew Launcher**.
 4. Open **Roku Remote 3DS**.
 
-You could also downlaod the .cia file to your 3DS home screen.
+You could also downlaod the **.cia** file to your 3DS home screen through **FBI**.
 
 The installed files should be:
 
