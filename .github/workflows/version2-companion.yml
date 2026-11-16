@@ -1,0 +1,33 @@
+name: Version 2 companion and theme checks
+on:
+  push:
+    branches: [work/version2-remote]
+    paths: ['version2/**', '.github/workflows/version2-companion.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  companion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install theme codecs and offline English recognizer
+        run: python -m pip install -r version2/companion/requirements.txt
+      - name: Fetch the speech recognizer's recorded test phrase
+        run: curl -fsSL --retry 3 https://raw.githubusercontent.com/cmusphinx/pocketsphinx/v5.0.4/test/data/goforward.raw -o "$RUNNER_TEMP/goforward.raw"
+      - name: Test real speech, authenticated HTTP, theme codecs and catalog persistence
+        run: SPEECH_FIXTURE="$RUNNER_TEMP/goforward.raw" python -m unittest discover -s version2/tests -v
+      - name: Package the Windows and cross-platform companion with its sample
+        run: |
+          python version2/examples/build_tidepool.py version2/companion/themes/Tidepool-Version2.zip
+          mkdir -p dist
+          cp version2/companion/themes/Tidepool-Version2.zip dist/
+          (cd version2 && zip -qr ../dist/RokuRemote-Companion-Version2.zip companion examples THEMES.md README.md -x '*/__pycache__/*')
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Version2-companion-and-example-theme
+          path: dist/
